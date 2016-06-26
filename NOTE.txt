@@ -1,0 +1,2 @@
+Download and extract to */*, then extract "WelcomePage" again 
+to run html properly with assets.
