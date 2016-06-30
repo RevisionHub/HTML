@@ -3,25 +3,23 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<title>Sign Up</title>
+	<title>Login</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
-	
 
+	<link href="/resources/assets/css/login.css" rel="stylesheet" />
+
+	
 </head>
 <body>
-      <div class="bg">
-          <img src="/resources/assets/img/PenBackground.jpg" alt="">
-      </div>
-	  
-	  <div class="content">
-  <div class="title">Create account</div>
-  <input type="text" placeholder="E-mail"/>
-  <input type="password" placeholder="Password"/>
-  <button>Create Account</button>
-  <div class="already">Already have an account? <a href="Login.html">Sign In</a></div>
-</div>
-	 
-
+  	 <div class="content">
+		<div class="title">RevisionHub</div>
+		<form method="post" action="/dynamic/create/">
+			<input type="text" placeholder="Username" name="username"/>
+			<input type="password" placeholder="Password" name="password"/>
+			<input type="password" placeholder="Password again" name="password2"/>
+			<input type="submit" value="Create" class="submit"/>
+ 		 </form>
+	</div>
 </body>
